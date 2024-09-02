@@ -1,0 +1,17 @@
+{
+  "name": "qa-playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "playwright:open": "playwright test --headed",
+    "playwright:run:headless": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.4.0"
+  }
+}
