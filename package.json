@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "playwright:open": "playwright test --headed",
-    "playwright:run:headless": "playwright test"
+    "playwright": "playwright test",
+    "playwright:headed": "playwright test --headed",
+    "playwright:report": "playwright show-report"
   },
   "keywords": [],
   "author": "",

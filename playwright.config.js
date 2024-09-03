@@ -9,8 +9,8 @@ const config = defineConfig({
   },
   reporter: [['html', { open: 'never' }]], // Configure HTML reporter
   use: {
-    baseURL: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',
-    browserName: 'chromium',
+    baseURL: 'https://opensource-demo.orangehrmlive.com/',
+    // browserName: 'chromium',
   },
 });
 
